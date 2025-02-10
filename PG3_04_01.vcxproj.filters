@@ -14,13 +14,33 @@
     <Filter Include="KamataEngine\Adapter">
       <UniqueIdentifier>{c6468eb4-788b-4a83-b207-a5f4804e56c5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="hetter">
+      <UniqueIdentifier>{83ca0de2-e719-46b3-9ac9-0fa72c8e5250}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="cpp">
+      <UniqueIdentifier>{7b460cb0-3db5-459f-9033-6ccb2e2b6e43}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp" />
     <ClCompile Include="C:\KamataEngine\Adapter\Novice.cpp">
       <Filter>KamataEngine\Adapter</Filter>
     </ClCompile>
-    <ClCompile Include="IScene.cpp" />
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="IScene.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="StageScene.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>cpp</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="C:\KamataEngine\DirectXGame\audio\Audio.h">
@@ -104,6 +124,23 @@
     <ClInclude Include="C:\KamataEngine\DirectXGame\2d\ImGuiManager.h">
       <Filter>KamataEngine\Include</Filter>
     </ClInclude>
-    <ClInclude Include="IScene.h" />
+    <ClInclude Include="ClearScene.h">
+      <Filter>hetter</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>hetter</Filter>
+    </ClInclude>
+    <ClInclude Include="IScene.h">
+      <Filter>hetter</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>hetter</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>hetter</Filter>
+    </ClInclude>
+    <ClInclude Include="StageScene.h">
+      <Filter>hetter</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
